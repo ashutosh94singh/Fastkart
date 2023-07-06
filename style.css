@@ -1,0 +1,1924 @@
+body{
+    margin: 0;
+    margin-top: 2%;
+ }
+/* ----------------------------------Navbar Code---------------------------------- */
+ .navbar{
+    width: 100%;
+    display: flex;
+    height: 4rem;
+    justify-content: space-evenly;
+ }
+
+
+ .navbar .heading{
+    margin-left: 3%;    
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: cursive;
+    width: 15%;
+
+ }
+ .navbar .location{
+    
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: cursive;
+    display: flex;
+    width: 15%;
+    margin-left: 10%;
+
+ }
+ .navbar .searchBar{
+    
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: cursive;
+    display: flex;
+    width: 35%;
+    margin-left: 5%;
+
+ }
+ .navbar .searchBar input{
+    width: 90%;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 20px;
+ }
+ .navbar .searchBar img{
+    background-color: red;
+    height: 100%;
+    width: 50px;
+ }
+ .navbar .content{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-right: 2%;
+    margin-left: 2%;
+
+ }
+
+ .navbar img{
+    width: 50px;
+    height: 64px;
+ }
+ /* -------------------------------------------Second Navbar----------------------------------------------------------- */
+ .navbarSecond{
+    margin-top: 2%;
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    justify-content: space-around;
+ }
+
+ .navbarSecond img{
+    width: 50px;
+    height: 64px;
+ }
+ .navbarSecond .firstDropdown {
+    height: 100%;
+    width: 15%;
+    text-align: center;
+    margin-left: 2%;
+    
+}
+
+#Categories{
+    background-color: rgb(65, 133, 65);
+    padding: 5%;
+    font-size: 2.1rem;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+}
+
+.navbarSecond .cars{
+    font-size: 20px;
+}
+.navbarSecond .secondDropdown {
+
+   margin-left: 10%;   
+}
+.navbarSecond .sixthDropdown {
+
+   margin-right: 10%;   
+}
+
+
+/* --------------------------First Middle------------------------------ */
+.firstMiddle{
+    width: 100%;
+    height: 45rem;
+    display: flex;
+    margin-top: 2%;
+    
+}
+.firstMiddle .box1{
+width: 50%;
+height: 44rem;
+background-image: url('./vegetable.avif');
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: 3%;
+}
+
+.firstMiddle .box1 .content1{
+    height: 25rem;
+    margin-top: 35%;
+    margin-left: 5%;
+    width: 46%;
+}
+
+.firstMiddle .box1 .content1 p{
+    font-size: 1.5rem;
+    color: white;
+}
+.firstMiddle .box1 .content1 h2{
+    color: white;
+    font-size: 2.3rem;
+
+}
+.firstMiddle .box1 .content1 button{
+    width: 34%;
+    height: 2rem;
+}
+
+.firstMiddle .box2{
+    margin-left: 3%;
+    width: 50%;    
+}
+
+.firstMiddle .box2 .box3{
+width: 90%;
+height: 26rem;
+background-image: url('./fruit.avif');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.firstMiddle .box3 .content2 p{
+    font-size: 2rem;
+    color: white;
+}
+.firstMiddle .box3 .content2 h2{
+    color: white;
+    font-size: 2.3rem;
+
+}
+.firstMiddle .box3 .content2 button{
+    width: 34%;
+    height: 2rem;
+    background-color: none;
+    box-sizing: content-box;
+}
+
+.firstMiddle .box2 .box3 .content2{
+    margin-left: 5%;
+   
+    width: 55%;
+    height: 17rem;
+    padding-top: 3%;
+}
+
+.firstMiddle .box2 .box4{
+width: 90%;
+height: 16rem;
+background-image: url('./tomato.avif');
+background-repeat: no-repeat;
+margin-top: 4%;
+background-size: cover;
+}
+.firstMiddle .box4 .content3{
+    width: 50%;
+    height: 11rem;
+   
+    padding-top: 6%;
+    margin-left: 3%;
+}
+.firstMiddle .box4 .content3 p{
+    font-size: 1.5rem;
+    color: white;
+}
+.firstMiddle .box4 .content3 h2{
+    color:#5DD4D4;
+    font-size: 2.3rem;
+
+}
+
+/* -----------------------------Second Middle Code------------------------ */
+
+.secondMiddle{
+    display: flex;
+    width: 100%;
+    height: 20rem;
+    /* margin-left: 2%; */
+    margin-top: 2%;
+    
+}
+.secondMiddle .firstHalf{
+    display: flex;
+    width: 67%;
+ 
+    justify-content: space-around;
+    margin-left: 2%;
+    
+}
+.secondMiddle .firstHalf .box1{
+    display: flex;
+    width: 40%;    
+    border-radius: 15px;
+    background-image: url("./dryFruit.avif");
+  
+}
+
+.secondMiddle .firstHalf .box1 .content{
+    border: 2px solid white;
+    margin-top: 2%;
+    width: 77%;
+    height: 15rem;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;   
+    background-color: rgba(14, 12, 12,.3) ;    
+    
+}
+.secondMiddle .firstHalf .box1 .content p{
+    color: rgb(234, 227, 227);
+    font-size: 1.7rem;
+}
+.secondMiddle .firstHalf .box1 .content h3{
+    color: white;
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+.secondMiddle .firstHalf .box1 .content h5{
+    color: white;
+    font-size: 1.9rem;
+}
+
+
+.secondMiddle .firstHalf .box2{
+    display: flex;
+    width: 40%;    
+    margin-right: 4%;
+    border-radius: 15px;
+    background-image: url("./eggs.avif");
+    white-space:wrap;
+}
+.secondMiddle .firstHalf .box2 .content{
+    border: 2px solid white;
+    margin-top: 2%;
+    width: 77%;
+    height: 15rem;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;   
+    background-color: rgba(254, 246, 246,.2) ;    
+    
+}
+.secondMiddle .firstHalf .box2 .content p{
+    color: #D80C8D;
+    font-size: 1.7rem;
+}
+.secondMiddle .firstHalf .box2 .content h3{
+    color: #480A74;
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+.secondMiddle .firstHalf .box2 .content h5{
+    color: #D80C8D;
+    font-size: 1.9rem;
+}
+
+
+.secondMiddle .secondHalf{
+    display: flex;
+    width: 25%;
+    background-color: rgb(179, 158, 158);
+    border-radius: 15px;
+    background-image: url("./allfruits.avif");
+}
+.secondMiddle .secondHalf .content{
+    border: 2px solid rgb(8, 8, 8);
+    margin-top: 2%;
+    width: 77%;
+    height: 15rem;
+    border-left: 1px solid rgb(8, 8, 8);
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;   
+    background-color: rgba(254, 246, 246,.2) ;    
+    
+}
+.secondMiddle .secondHalf .content p{
+    color: #651A4C;
+    font-size: 1.7rem;
+}
+.secondMiddle .secondHalf .content h3{
+    color: #070D35;
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+.secondMiddle .secondHalf .content h5{
+    color: #651A4C;
+    font-size: 1.9rem;
+}
+
+
+
+/* -----------------------------Third Middle Code------------------------------ */
+
+.thirdMiddle{
+    display: flex;
+    width: 100%;
+    height: 58rem;
+    margin-top: 2%;
+}
+
+.thirdMiddle .firstBox{
+    width: 30%;
+    background-color: rgb(249, 241, 241);
+    margin-left: 5%;
+    
+}
+.thirdMiddle .firstBox h3{
+   font-size: 2.9rem;  
+   color: black;  
+   font-weight: bold;
+   margin-left: 2%;
+   text-decoration-line: underline;
+    text-decoration-color:  rgb(16, 135, 103);
+}
+.thirdMiddle .firstBox li{
+    font-size: 1.8rem; 
+    color: black;   
+    font-weight: 600;
+}
+.thirdMiddle .secondBox{
+    width: 70%;
+    margin-left: 2%;
+
+}
+.thirdMiddle .secondBox .boxTop{
+    width: 100%;
+    background-color: white;
+    height: 15rem;
+    display: flex;
+  
+}
+.thirdMiddle .secondBox .boxTop .box1{
+    width: 70%; 
+    
+}
+.thirdMiddle .secondBox .boxTop .box1 h2{
+    font-size: 2.7rem;
+    text-decoration-line: underline;
+    text-decoration-color:  rgb(13, 180, 195);
+
+    
+}
+.thirdMiddle .secondBox .boxTop .box1 p{
+    font-size: 1.5rem;
+}
+
+
+.thirdMiddle .secondBox .boxTop .box2{
+    width: 30%;
+    color: white;
+}
+.thirdMiddle .secondBox .boxTop .box2 button{
+    width: 80%;
+    color: white;
+    background-color: red;
+    font-weight: 900;
+    height: 2rem;
+    margin-top: 15%;
+}
+
+/* ---------------------- */
+
+.thirdMiddle .secondBox .boxBottom{
+    height: 43rem;
+    width: 100%;
+    
+    display: block;
+    
+}
+.thirdMiddle .secondBox .boxBottom .top{
+    height: 20rem;
+    width: 100%;    
+    
+    display: flex;
+    padding-top: 2%;
+    justify-content: space-around;
+    
+}
+.thirdMiddle .secondBox .boxBottom .bottom{
+    height: 20rem;
+    width: 100%;    
+    
+    display: flex;
+    padding-top: 2%;
+    justify-content: space-around;
+    
+}
+.thirdMiddle .secondBox .boxBottom .box1{
+    height: 19rem;
+    width: 30%;    
+    background-color: white;
+    border: 5px solid rgb(238, 238, 228);
+}
+.thirdMiddle .secondBox .boxBottom .image{
+    display: flex;
+    justify-content: center;    
+    
+}
+.thirdMiddle .secondBox .boxBottom .image img{
+    height: 120px;
+    width: 200px;   
+}
+.thirdMiddle .secondBox .boxBottom .top  .content{
+
+     
+}
+.thirdMiddle .secondBox .boxBottom .content h2{
+    font-size: 1rem;
+    font-family:sans-serif;  
+}
+.thirdMiddle .secondBox .boxBottom .content h3{
+    font-size: 1.3rem;  
+    font-family:sans-serif; 
+    color: black;
+}
+.thirdMiddle .secondBox .boxBottom .content button{
+    width: 42%;
+    border: 3px solid rgb(37, 37, 88);  
+}
+
+
+
+.thirdMiddle .secondBox .boxBottom .box2{
+    height: 19rem;
+    width:30%;    
+    background-color: white;
+    border: 5px solid rgb(238, 238, 228);
+}
+.thirdMiddle .secondBox .boxBottom .box3{
+    height: 19rem;
+    width: 30%;    
+    background-color: white;
+    border: 5px solid rgb(238, 238, 228);
+}
+
+
+/* <!-- ------------------------Fourth Middle-------------------------- --> */
+.fourthMiddle{
+      
+    width: 100%;
+    height: 43rem;
+    display: flex;
+    margin-top: 2%;
+}
+.fourthMiddle .firstHalf{
+    
+    width: 33%;
+    height: 42rem;
+    background-image: url('./freshVege.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5%;
+
+}
+.fourthMiddle .firstHalf h2{
+    
+    font-size: 2rem;
+    margin-left:5%;
+    padding-top:3%;
+}
+.fourthMiddle .firstHalf h3{   
+    font-size: 1.7rem;
+    font-style: italic;
+    margin-left:5%;
+}
+.fourthMiddle .firstHalf button{   
+    font-size: 1.7rem;
+    font-style: italic;
+    margin-left: 3%;
+    padding: 2%;
+    border: 3px solid white;
+    opacity: 79%;
+}
+/* ------------------ */
+.fourthMiddle .secondHalf{
+     
+    width: 75%;
+    height: 40rem;
+    margin-left: 3%;
+}
+
+.fourthMiddle .secondHalf .topBox{    
+    width: 100%;
+    
+}
+.fourthMiddle .secondHalf .topBox .box1{    
+    width: 100%;
+    height: 10rem;
+    margin-top: 2%;
+}
+.fourthMiddle .secondHalf .topBox .box1 h3{    
+    font-size: 2rem;
+    font-weight: bold;
+}
+.fourthMiddle .secondHalf .topBox .box1 h2{    
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.fourthMiddle .secondHalf .topBox .box2{
+  
+    width: 100%;
+    height: 12rem;
+    display: flex;
+    justify-content: space-between;
+}
+.fourthMiddle .secondHalf .topBox .box2 img{
+    width: 70px;
+}
+.fourthMiddle .secondHalf .topBox .box2 .cart1, .cart2, .cart3, .cart4, .cart5{
+    background-color: beige;
+    border: 2px solid white;
+    width: 25%;
+    height: 8.5rem;
+    text-align: center;
+    color: black;
+}
+
+
+
+.fourthMiddle .secondHalf .bottomBox{    
+    width: 100%;
+    height: 17rem;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.fourthMiddle .secondHalf .bottomBox .box1{    
+
+    border: 2px solid white;
+    width: 45%;
+    height: 100%;
+    background-image:url(./boxFruit.avif);
+    background-size: cover;
+    
+}
+.fourthMiddle .secondHalf .bottomBox .box2{   
+    border: 2px solid white;
+    width: 45%;
+    height: 100%;
+    background-image:url(./boxVege.avif);
+    background-size: cover;    
+}
+.fourthMiddle .secondHalf .bottomBox h2{
+    font-size: 2rem;
+    font-size: 2.5rem;
+    color: rgb(36, 79, 79);
+    margin-left: 5%;
+
+}
+.fourthMiddle .secondHalf .bottomBox h3{
+    font-size: 2rem;
+    margin-left: 5%;
+
+}
+.fourthMiddle .secondHalf .bottomBox button{
+    font-size: 2rem;    
+    margin-left: 5%;
+}
+.fourthMiddle .secondHalf .topBox .box2{
+    display: flex;
+}
+.fourthMiddle .secondHalf .topBox .box2 .cartOne{
+    display: flex;
+    justify-content: inherit;
+    width: 60%;
+}
+.fourthMiddle .secondHalf .topBox .box2 .cartTwo{
+    display: flex;
+    justify-content: space-evenly;
+    width: 43%;
+}
+
+
+/* --------------------Fifth Middle ------------------------------------ */
+.fifthMiddle{
+    width: 100%;
+    display: flex;
+    height: 89rem;
+}
+.fifthMiddle .firstHalf{
+    width: 30%;
+    
+    margin-left: 5%;
+    background-image: url('./bigVege.avif');
+    background-size:cover;
+    background-position: 25%;
+    opacity: 95%;
+    
+}
+
+.fifthMiddle .firstHalf h2{
+    font-size: 3rem;
+    margin-left: 5%;
+    color: #1c8ecb;
+    font-weight: 100;
+}
+
+.fifthMiddle .firstHalf button{
+    font-size: 2.5rem;
+    margin-left: 5%;
+    color: white;
+    background-color: rgb(245, 59, 59);
+}
+.fifthMiddle .secondHalf{
+    width: 68%;
+    margin-left: 2%;
+    display: block;
+}
+
+.fifthMiddle .secondHalf .content h2{
+    font-size: 2.5rem;
+    font-weight: 100;
+    background-color: white;
+}
+
+.fifthMiddle .secondHalf .boxOne{
+   background-color: white;
+    width: 100%;
+    height: 20rem;
+    color: white;   
+    display: flex; 
+    justify-content: space-evenly;
+    text-align: center;
+}
+.fifthMiddle .secondHalf .boxOne img{
+    width: 200px;
+    height: 170px;
+}
+.fifthMiddle .secondHalf .boxOne .info{    
+    
+    color: black;
+    height: 7rem;
+    font-style: oblique;
+    font-weight: 600;
+}
+.fifthMiddle .secondHalf .boxOne .info button{
+    width: 11rem;
+    height: 2rem;
+    margin-top: 3%;
+}
+.fifthMiddle .secondHalf .boxOne .box1, .box2, .box3{
+    border-right: 4px solid rgb(189, 182, 182);
+    width: 30%;
+    height: 19rem;
+    color: white;    
+}
+
+.fifthMiddle .secondHalf .boxTwo{
+    background-image: url('./fruit.avif');
+    background-repeat: no-repeat;
+   background-size: cover;
+    width: 100%;
+    height: 10rem;
+    color: white; 
+    text-align: center;
+}
+.fifthMiddle .secondHalf .boxTwo h2{ 
+    font-size: 2.8rem;
+
+}
+.fifthMiddle .secondHalf .boxTwo button{
+    font-size: 1.9rem;
+    border-style: dashed;
+    opacity: 90%;
+    background-color: rgba(14, 12, 12,.1);
+    color: white;
+    width: 25rem;
+    height: 3.5rem;
+    margin-top: -2%;  
+}
+
+.fifthMiddle .secondHalf .boxThree{
+    background-image: url('./hand.avif');
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+   background-size: cover;
+    width: 100%;
+    height: 22rem;
+    color: white; 
+}
+.fifthMiddle .secondHalf .boxThree h2{ 
+    font-size: 2.8rem;
+    color: #1c8ecb;
+    font-family: cursive;
+    margin-left: 5%;
+
+}
+.fifthMiddle .secondHalf .boxThree p{ 
+    font-size: 1.2rem;    
+    color: black;
+    margin-left: 5%;
+    
+
+}
+.fifthMiddle .secondHalf .boxThree button{
+    font-size: 1.9rem;
+    border-style: dashed;
+    opacity: 90%;
+    background-color: rgba(14, 12, 12,.2);
+    color: rgb(14, 14, 14);
+    width: 19rem;
+    height: 2.5rem;
+    margin-top: 5%;
+    margin-left: 5%;  
+}
+.fifthMiddle .secondHalf .boxFour{
+    background-image: url('./coffe.avif');
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+   background-size: cover;
+    width: 100%;
+    height: 16rem;
+    color: white; 
+}
+
+.fifthMiddle .secondHalf .boxFour h2{
+    font-size: 3rem;
+    font-style: italic;
+    margin-left: 3%;
+    padding-top: 3%;
+}
+
+/* -------------------------------Sixth Middle----------------------------------------------------- */
+
+.sixthMiddle{
+    width: 100%;
+    height: 45rem;
+    display: flex;
+    margin-top: 1%;
+}
+.sixthMiddle .sixfirstHalf{
+    width: 30%;
+    height: 40rem;
+    margin-left: 5%;
+    background-color: rgb(209, 210, 210);
+}
+.sixthMiddle .sixfirstHalf h2{
+    font-size:2.5rem;   
+}
+.sixthMiddle .sixfirstHalf .sixboxOne{
+    display: flex;
+    height: 6rem;
+}
+.sixthMiddle .sixfirstHalf h3{
+    font-size: 1.4rem;
+    color: black;
+}
+.sixthMiddle .sixfirstHalf .sixboxOne .sixbox1{
+    width:30%;
+    text-align: center;
+}
+.sixthMiddle .sixfirstHalf img{
+    width: 6rem;
+}
+.sixthMiddle .sixfirstHalf .sixboxOne .sixbox2{
+    width:65%;
+    margin-left: 5%;
+    height: 6rem;    
+}
+
+.sixthMiddle .sixfirstHalf .sixboxTwo{
+    display: flex;
+    height: 6rem;
+    margin-top: 5%;
+   
+}
+.sixthMiddle .sixfirstHalf .sixboxTwo .sixbox1{
+    width:30%;
+    text-align: center;
+}
+.sixthMiddle .sixfirstHalf .sixboxTwo .sixbox2{
+    width:65%;
+    margin-left: 5%;
+    height: 6rem;    
+}
+
+.sixthMiddle .sixfirstHalf .sixboxThree{
+    display: flex;
+    height: 6rem;
+    margin-top: 5%;
+   
+}
+.sixthMiddle .sixfirstHalf .sixboxThree .sixbox1{
+    width:30%;
+    text-align: center;
+}
+.sixthMiddle .sixfirstHalf .sixboxThree .sixbox2{
+    width:65%;
+    margin-left: 5%;
+    height: 6rem;    
+}
+
+.sixthMiddle .sixfirstHalf .sixboxFour{
+    display: flex;
+    height: 6rem;
+    margin-top: 5%;
+   
+}
+.sixthMiddle .sixfirstHalf .sixboxFour .sixbox1{
+    width:30%;
+    text-align: center;
+}
+.sixthMiddle .sixfirstHalf .sixboxFour .sixbox2{
+    width:65%;
+    margin-left: 5%;
+    height: 6rem;    
+}
+.sixthMiddle .sixsecondHalf{
+    width: 68%;
+    height: 50rem;
+    margin-left: 2%;  
+}
+.sixthMiddle .sixsecondHalf img{
+    width: 6rem;
+}
+.sixthMiddle .sixsecondHalf h2{
+    font-size: 2rem;
+}
+
+.sixthMiddle .sixsecondHalf .box{
+    display: flex;
+    width: 95%;
+    height: 39rem;
+}
+.sixthMiddle .sixsecondHalf .box .firstHalf{
+  width: 45%;  
+  height: 39rem;
+}
+.sixthMiddle .sixsecondHalf .box .firstHalf .sixboxOne, .sixboxTwo, .sixboxThree, .sixboxFour{
+    display: flex;
+    margin-top: 2%;
+}
+.sixthMiddle .sixsecondHalf .box .firstHalf .sixbox2{
+    margin-left: 8%;
+}
+
+.sixthMiddle .sixsecondHalf .box .secondHalf{
+    width: 45%;  
+    height: 40rem;   
+}
+.sixthMiddle .sixsecondHalf .box .secondHalf .sixboxOne, .sixboxTwo, .sixboxThree, .sixboxFour{
+    display: flex;
+    margin-top: 2%;
+    height: 6rem;
+    width: 100%;
+}
+.sixthMiddle .sixsecondHalf .box .secondHalf  img{
+    width: 6rem;
+}
+.sixthMiddle .sixsecondHalf .box .secondHalf h3{
+    font-size: 1.3rem;
+    width: 70%;
+    color: black;
+}
+.sixthMiddle .sixsecondHalf .box .secondHalf .sixbox1{
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.sixthMiddle .sixsecondHalf .box .secondHalf .sixbox2{
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+
+/* -------------Seventh Middle Code --------------- */
+
+.seventhMiddle{
+    width: 100%;
+    height: 62rem;
+    display: flex;
+    
+}
+.seventhMiddle .seventhFirstHalf{
+    width: 30%;
+    margin-left: 5%;
+    height: 25rem;
+    background-color: rgb(215, 212, 212);    
+}
+.seventhMiddle .seventhFirstHalf .cont{
+    margin-left: 5%;
+}
+.seventhMiddle .seventhFirstHalf .contImg{
+    display: flex;
+    justify-content: space-evenly;
+}
+.seventhMiddle .seventhFirstHalf .contImg img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+.seventhMiddle .seventhSecondHalf{
+    width: 68%;
+    margin-left: 5%;
+    height: 70rem;
+
+}
+
+.seventhSecondHalf .seventhBoxOne{
+    width: 100%;
+    height: 20rem;
+    margin-top: 10%;
+    background-image: url('./vegu.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    white-space: inherit;
+}
+
+.seventhSecondHalf .seventhBoxOne h3{
+    font-size: 2rem; 
+    color: rgb(18, 211, 50);
+}
+
+.seventhSecondHalf .seventhBoxOne button{
+    font-size: 3rem; 
+}
+.seventhSecondHalf .seventhBoxTwo{
+    width: 100%;
+    height: 10rem;
+}
+.seventhSecondHalf .seventhBoxTwo h2{
+    font-size: 2.5rem;
+    color: black;
+}
+.seventhSecondHalf .seventhBoxThree{
+    width: 100%;
+    height: 23rem;
+    display: flex;
+    justify-content: space-between;
+}
+.seventhSecondHalf .seventhBoxThree img{
+    width: 26rem;
+    height: 15rem;
+}
+.seventhSecondHalf .seventhBoxThree .seventhBox1{
+    width: 40%;
+}
+
+.seventhSecondHalf .seventhBoxThree .seventhBox2{
+    width: 40%;
+}
+
+/* ---------------------Eighth Middle------------------- */
+.eighthMiddle{
+    width: 80%;
+    background-color: #2d4450;
+    height: 13rem;
+    margin-left: 10%;
+    border-radius: 5px;
+}
+.eighthMiddle .cont{
+    margin-left: 20%;
+  padding-top: 1%;
+  color: white;
+}
+.eighthMiddle .submit{
+    margin-left: 20%;
+    margin-top: 2%;
+    border: 2px solid white;
+    width: 23rem;
+}
+.eighthMiddle .submit input{
+    width: 16rem;
+    height: 1.5rem;
+    padding: 1%;
+    border: 2px solid white;
+}
+.eighthMiddle .submit button{
+    height: 2rem;
+    padding: 1%;
+    width: 6rem;
+    background-color: rgb(185, 83, 83);
+    color: white;
+    border: none;
+    margin-left: 1%;
+
+}
+
+
+/* -----------------Ninth Middle -------------------------- */
+
+.ninthMiddle {
+    width: 100%;
+    height: 16rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    background-color: rgb(232, 232, 232);
+}
+.ninthMiddle .ninthBoxOne{
+    width: 45%;
+    height: 15rem;
+    margin-top: 2%;
+}
+.ninthMiddle img{
+    width: 5rem;
+    height: 5rem;
+}
+
+
+.ninthMiddle .ninthBoxOne .ninthBox1, .ninthBox2{
+    display: flex;
+    justify-content: space-between;
+}
+.ninthMiddle .ninthBoxTwo .ninthBox1, .ninthBox2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ninthMiddle .ninthBoxTwo{
+    width: 45%;
+    height: 15rem;
+    margin-top: 2%;
+}
+.ninthMiddle .ninthBox2{
+    margin-top: 5%;
+}
+
+/* -------------------------Tenth Middle---------------- */
+.tenthMiddle {
+    width: 100%;
+    height: 28rem;
+    display: flex;
+    background-color: rgb(232, 232, 232);
+}
+
+.tenthMiddle .tenthMiddleFourBox{
+    width: 75%;
+    display: flex;
+}
+.tenthMiddle .tenthMiddleFourBox .tenthMiddleBoxOne{
+    width: 50%;
+    display: flex;
+}
+
+.tenthMiddle .tenthMiddleFourBox .tenthMiddleBoxOne .tenthBox1{
+    width: 60%;
+    margin-left: 2%;
+}
+.tenthMiddle .tenthMiddleFourBox .tenthMiddleBoxOne .tenthBox1 h2{
+   color: rgb(17, 177, 205);
+   font-size: 3rem;
+   font-weight: 200;
+}
+
+
+.tenthMiddle .tenthMiddleFourBox .tenthMiddleBoxOne .tenthBox2{
+    width: 38%;
+    margin-left: 2%;
+}
+.tenthMiddle .tenthMiddleFourBox .tenthMiddleBoxOne .tenthBox2 ul{
+    margin-left: -13%;
+}
+.tenthMiddle .tenthMiddleFourBox .tenthMiddleBoxOne .tenthBox2 h2{
+    color: black;
+    font-size: 2.2rem;
+ }
+ .tenthMiddle .tenthMiddleFourBox .tenthMiddleBoxOne .tenthBox2 li{
+    font-size: 1.4rem;
+ }
+ 
+
+
+.tenthMiddle .tenthMiddleFourBox .tenthMiddleBoxTwo{
+    width: 50%;
+    display: flex;
+}
+.tenthMiddle .tenthMiddleFourBox .tenthMiddleBoxTwo .tenthBox1{
+    width: 50%;
+    margin-left: 12%;
+}
+.tenthMiddle .tenthMiddleFourBox .tenthMiddleBoxTwo h2{
+    font-size: 2.2rem;
+}
+.tenthMiddle .tenthMiddleFourBox .tenthMiddleBoxTwo .tenthBox1 ul{
+    margin-left: -13%;
+}
+.tenthMiddle .tenthMiddleFourBox .tenthMiddleBoxTwo .tenthBox1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.tenthMiddle .tenthMiddleFourBox .tenthMiddleBoxTwo .tenthBox2{
+    width: 50%;
+}
+.tenthMiddle .tenthMiddleFourBox .tenthMiddleBoxTwo .tenthBox2 ul{
+    margin-left: -13%;
+    font-size: 1.5rem;
+}
+
+
+
+.tenthMiddle .contactUs{
+    width: 25%;
+}
+.tenthMiddle .contactUs img{
+    width: 10em;
+    height: 6rem;
+}
+
+ /* -------------------------------------------Media Query----------------------------------------------------------- */
+
+ @media(min-width:200px) and (max-width:650px){
+    /* first navbar Code */
+    .navbar{
+        display: block;    
+        height: 100%;
+    }
+    .navbar .heading{
+        width: 100%;
+        background-color: rgb(231, 230, 230);
+        margin-top: -2%;      
+    }
+    .navbar .location{
+        width: 100%;
+        margin-top: 2%;       
+    }
+    .navbar .searchBar{
+        width: 95%;
+        margin-top: 2%;   
+        margin-right: 5%;     
+    }
+    .navbar .content{
+        width: 90%;
+        margin-top: 2%;
+        margin-left: 6%;
+         
+    }
+    .navbar img{
+        width: 25px;
+        height: 25px;
+    }
+
+    /* ------Navbar Second------- */
+    .navbarSecond{
+        display: block;    
+        height: 100%;
+    }
+    .navbarSecond .firstDropdown{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .navbarSecond .secondDropdown, .thirdDropdown, .fourthDropdown, .fifvthDropdown, .sixthDropdown, .logo{
+        display: none;
+    }
+
+    /* -----------First Middle------------- */
+    .firstMiddle{
+        width: 100%;
+        height: 50rem;
+        margin-top: -11%;
+        display: block;        
+    }
+    .firstMiddle .box1 {
+        width: 95%;
+        height: 21.5rem;
+        margin-top: -28%;
+    }
+    .firstMiddle .box2{
+        width: 100%;
+        height: 18rem;      
+    
+    }
+    
+    .firstMiddle .box2 .box3 {
+        width: 95%;
+        height: 16.3rem;
+        margin-top: 5%;
+    }
+    
+    .firstMiddle .box2 .box4{
+        width: 95%;
+        height: 9.5rem;
+        margin-top: 5%;    
+    }
+    .firstMiddle .box1 .content1 p{
+        font-size: 1rem;  
+    }
+    .firstMiddle .box1 .content1 h2{
+        font-size: 1.5rem; 
+    }
+    .firstMiddle button {
+        width: 52%;
+        height: 2rem;
+    }
+    .firstMiddle .box3 .content2 p{
+        font-size: 1rem;  
+    }
+    .firstMiddle .box3 .content2 .off p{
+        font-size: 1.5rem;  
+    }
+    .firstMiddle .box3 .content2 h2{
+        font-size: 1.5rem; 
+    }
+    .firstMiddle .box4 .content3 p{
+        font-size: 1rem;  
+    }
+    .firstMiddle .box4 .content3 h2{
+        font-size: 1.5rem; 
+    }
+    .firstMiddle .box1 .content1 button {
+        width: 50%;
+        height: 2rem;
+    }
+    .firstMiddle .box3 .content2 button {
+        width: 45%;
+    }
+
+    /* -----------------Second Middle Code------------- -----*/
+    
+    .secondMiddle{
+        display: block;
+      
+        height: 50rem;
+    }
+    .secondMiddle .firstHalf{
+        display: block;
+        width: 98%;
+    }
+    .secondMiddle .firstHalf .box1{
+        width: 100%;
+    }
+    .secondMiddle .firstHalf .box1 .content p{
+        font-size: 1rem;
+    }
+    .secondMiddle .firstHalf .box1 .content h3{
+        font-size: 1.5rem;
+    }
+    .secondMiddle .firstHalf .box1 .content p{
+        font-size: 1.2rem;
+    }
+
+
+    .secondMiddle .firstHalf .box2 {
+        width: 100%;
+        margin-top: 2%;
+    }
+    .secondMiddle .firstHalf .box2 .content p{
+        font-size: 1rem;
+    }
+    .secondMiddle .firstHalf .box2 .content h3{
+        font-size: 1.5rem;
+    }
+    .secondMiddle .firstHalf .box2 .content p{
+        font-size: 1.2rem;
+    }
+
+    .secondMiddle .secondHalf{
+        margin-top: 2%;
+        margin-left: 3%;
+        width: 100%;
+    }
+    .secondMiddle .secondHalf .content p{
+        font-size: 1rem;
+    }
+    .secondMiddle .secondHalf .content h3{
+        font-size: 1.5rem;
+    }
+    .secondMiddle .secondHalf .content p{
+        font-size: 1.2rem;
+    }
+   
+    /* --------------Third Middle---------------- */
+    .thirdMiddle{
+        display: block;
+        height: 222rem;
+       
+    }
+    .thirdMiddle .firstBox{
+        /* margin-top: 123%; */
+        width: 100%;
+    }
+    .thirdMiddle .secondBox{
+        width: 100%;
+
+    }
+    .thirdMiddle .secondBox .boxTop{
+        display: block;
+        width: 100%;
+        
+        height: 18rem;
+    }
+    .thirdMiddle .secondBox .boxTop .box1 {
+        width: 100%;
+    }
+    .thirdMiddle .secondBox .boxTop .box2{
+        width: 45%;
+    }
+    .thirdMiddle .secondBox .boxBottom .top{
+        display: block;
+    }
+    .thirdMiddle .secondBox .boxBottom .bottom{
+        display: block;
+        margin-top: 168%;
+    }
+    .thirdMiddle .secondBox .boxBottom .box1 {
+        height: 20rem;
+        width: 58%;
+    }
+    
+    .thirdMiddle .secondBox .boxBottom .box2 {
+        height: 20rem;
+        width: 58%;
+        margin-top: 2%;
+    }
+    
+    .thirdMiddle .secondBox .boxBottom .box3 {
+        height: 20rem;
+        width: 58%;
+        margin-top: 2%;
+    }
+    
+    /* <!-- ------------------------Fourth Middle-------------------------- --> */
+.fourthMiddle{
+      display: block;     
+      height: 83rem;
+}
+.fourthMiddle .firstHalf{
+    width: 100%;
+    height: 16rem;
+  
+}
+.fourthMiddle .secondHalf{
+    width: 100%;
+}
+.fourthMiddle .secondHalf .topBox{
+    width: 100%;
+    height: 29rem;
+}
+.fourthMiddle .secondHalf .topBox .box2{
+    display: block;
+    justify-content:space-evenly;
+    width: 155%;
+}
+.fourthMiddle .secondHalf .topBox .box1 h2{    
+    font-size: 2rem;
+    font-weight: bold;
+}
+.fourthMiddle .secondHalf .topBox .box2 .cartOne{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.fourthMiddle .secondHalf .topBox .box2 .cartTwo{
+   display: flex;
+   justify-content: space-around;
+   width: 60%;
+    margin-top: 2%;    
+}
+.fourthMiddle .secondHalf .bottomBox{
+    display: block;
+    width: 190%;
+}
+.fourthMiddle .secondHalf .bottomBox .box1{
+    width: 50%;
+}
+.fourthMiddle .secondHalf .bottomBox .box2{
+    width: 50%;
+    margin-top: 2%;
+}
+
+/* <!-- ------------------------Fifth Middle-------------------------- --> */
+.fifthMiddle{
+    display: block;
+    height: 148rem;
+}
+.fifthMiddle .firstHalf{
+    width: 100%;
+}
+.fifthMiddle .secondHalf{
+    width: 100%;
+}
+.fifthMiddle .secondHalf .boxOne {
+    display: block;
+    height: 60rem;
+}
+.fifthMiddle .secondHalf .boxOne .box1, .box2, .box3 {
+    width: 90%;
+    margin-top: 2%;
+}
+.fifthMiddle .secondHalf .boxTwo{
+    height: 15rem;
+}
+
+/* <!-- ------------------------Sixth Middle-------------------------- --> */
+
+.sixthMiddle{
+    display: block;
+    height: 128rem;
+    width: 100%;
+}
+.sixthMiddle .sixfirstHalf{
+    width: 100%;
+    height: 38rem;
+}
+.sixthMiddle .sixsecondHalf .cont{
+    width: 154%;
+    margin-left: 5%;
+}
+.sixthMiddle .sixsecondHalf .box{
+    display: block;
+    width: 160%;
+    height: 75rem;
+}
+.sixthMiddle .sixsecondHalf .box .firstHalf {
+    width: 150%;
+    margin-left: 5%;
+}
+.sixthMiddle .sixsecondHalf .box .secondHalf{
+    width: 150%;
+}
+
+/* -----------------------Seventh Middle------------------------------- */
+.seventhMiddle{
+    display: block;
+    height: 108rem;
+}
+.seventhMiddle .seventhFirstHalf{
+    width: 100%;
+}
+.seventhMiddle .seventhSecondHalf{
+    width: 100%;
+}
+.seventhSecondHalf .seventhBoxThree{
+    display: block;
+}
+/* ---------------------Eighth Middle------------------- */
+.eighthMiddle{
+    height: 16rem;
+    width: 100%;
+    margin-left: 0%;
+}
+.eighthMiddle .submit{
+    width: 16.5rem;
+    border: none;
+}
+.eighthMiddle .submit button{
+    margin-left: 0;
+}
+
+/* -----------------Ninth Middle -------------------------- */
+
+.ninthMiddle{
+    display: block;
+    height: 29rem;
+}
+.ninthMiddle .ninthBoxOne {
+    width: 100%;
+    height: 15rem;
+}
+.ninthMiddle .ninthBoxTwo {
+    width: 100%;
+    height: 15rem;
+    margin-top: -7%;
+}
+
+/* -------------------------Tenth Middle---------------- */
+.tenthMiddle {
+    width: 100%;
+    height: 140rem;
+    display: block;
+    margin-top: 2%;
+}
+.tenthMiddle .tenthMiddleFourBox{
+    display: block;
+    width: 100%;
+}
+.tenthMiddle .tenthMiddleFourBox .tenthMiddleBoxOne{
+    display: block;
+    width: 100%;
+}
+.tenthMiddle .tenthMiddleFourBox .tenthMiddleBoxOne .tenthBox2 ul {
+    margin-left: -21%;
+}
+
+.tenthMiddle .tenthMiddleFourBox .tenthMiddleBoxTwo{
+    display: block;
+    width: 100%;
+}
+.tenthMiddle .tenthMiddleFourBox .tenthMiddleBoxTwo .tenthBox1 {
+    width: 50%;
+    margin-left: 0%;
+}
+
+.tenthMiddle .contactUs h2{
+    font-size: 2.5rem;
+    margin-left: 12%;
+}
+.tenthMiddle .contactUs h4{
+    /* font-size: 2.5rem; */
+    margin-left: 12%;
+    width: 200%;
+}
+.tenthMiddle .contactUs button{
+    width: 25rem;
+}
+ }
+  /* -------------------------------------------Media Query2--------------------------------------------- */
+ @media(min-width:650px) and (max-width:850px){
+    /* first navbar Code */
+    .navbar{
+        display: block;    
+        height: 100%;
+    }
+    .navbar .heading{
+        width: 100%;
+        background-color: rgb(231, 230, 230);
+        margin-top: -2%;      
+    }
+    .navbar .location{
+        width: 100%;
+        margin-top: 2%;       
+    }
+    .navbar .searchBar{
+        width: 95%;
+        margin-top: 2%;   
+        margin-right: 5%;       
+    }
+    .navbar .content{
+        width: 90%;
+        margin-top: 2%;
+        margin-left: 6%;
+         
+    }
+    .navbar img{
+        width: 40px;
+        height: 40px;
+    }
+    /* ------Navbar Second------- */
+    .navbarSecond{
+        display: block;    
+        height: 100%;
+    }
+    .navbarSecond .firstDropdown{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .navbarSecond .fourthDropdown, .fifvthDropdown{
+        width: 100%;
+        font-size: 1.5rem;
+        font-weight: 800;
+        text-align: center;
+        height: 3rem;
+        
+    }
+    .navbarSecond .secondDropdown, .thirdDropdown, .sixthDropdown, .logo{
+        display: none;
+    }
+
+    /* -----------First Middle------------- */
+    .firstMiddle{
+        width: 100%;
+        height: 50rem;
+        margin-top: -11%;
+        display: block;        
+    }
+    .firstMiddle .box1 {
+        width: 95%;
+        height: 21.5rem;
+        margin-top: -28%;
+    }
+    .firstMiddle .box2{
+        width: 100%;
+        height: 18rem;      
+    
+    }
+    
+    .firstMiddle .box2 .box3 {
+        width: 95%;
+        height: 16.3rem;
+        margin-top: 5%;
+    }
+    
+    .firstMiddle .box2 .box4{
+        width: 95%;
+        height: 12.5rem;
+        margin-top: 5%;    
+    }
+    .firstMiddle .box1 .content1 p{
+        font-size: 1rem;  
+    }
+    .firstMiddle .box1 .content1{
+        padding-top: 2%; 
+    }
+    .firstMiddle .box1 .content1 h2{
+        font-size: 1.5rem; 
+    }
+    .firstMiddle button {
+        width: 52%;
+        height: 2rem;
+    }
+    .firstMiddle .box3 .content2 p{
+        font-size: 1rem;  
+    }
+    .firstMiddle .box3 .content2 .off p{
+        font-size: 1.5rem;  
+    }
+    .firstMiddle .box3 .content2 h2{
+        font-size: 1.5rem; 
+    }
+    .firstMiddle .box4 .content3 p{
+        font-size: 1rem;  
+    }
+    .firstMiddle .box4 .content3 h2{
+        font-size: 1.5rem; 
+    }
+    .firstMiddle .box1 .content1 button {
+        width: 50%;
+        height: 2rem;
+    }
+    .firstMiddle .box3 .content2 button {
+        width: 45%;
+    }
+
+    /* -----------------Second Middle Code------------- -----*/
+    
+    .secondMiddle{
+        display: block;
+        height: 33rem;
+    }
+    .secondMiddle .firstHalf{
+        /* margin-left: 3%; */
+        margin-top: 12%;
+        width: 100%;
+    }
+    .secondMiddle .firstHalf .box1{
+        width: 100%;
+    }
+    .secondMiddle .firstHalf .box1 .content p{
+        font-size: 1rem;
+    }
+    .secondMiddle .firstHalf .box1 .content h3{
+        font-size: 1.5rem;
+    }
+    .secondMiddle .firstHalf .box1 .content p{
+        font-size: 1.2rem;
+    }
+
+
+    .secondMiddle .firstHalf .box2 {
+        width: 100%;
+        margin-left: 2%;
+    }
+    .secondMiddle .firstHalf .box2 .content p{
+        font-size: 1rem;
+    }
+    .secondMiddle .firstHalf .box2 .content h3{
+        font-size: 1.5rem;
+    }
+    .secondMiddle .firstHalf .box2 .content p{
+        font-size: 1.2rem;
+    }
+    
+    .secondMiddle .secondHalf{
+        margin-top: 2%;
+        margin-left: 3%;
+        width: 50%;
+    }
+    .secondMiddle .secondHalf .content p{
+        font-size: 1rem;
+    }
+    .secondMiddle .secondHalf .content h3{
+        font-size: 1.5rem;
+    }
+    .secondMiddle .secondHalf .content p{
+        font-size: 1.2rem;
+    }
+
+    /* --------------Third Middle---------------- */
+    .thirdMiddle{
+        display: block;
+        height: 186rem;
+         margin-top: 17%;
+        
+       
+    }
+    .thirdMiddle .firstBox{
+        width: 92%;
+        display: flex;
+        padding-right: 2%;
+    }
+    .thirdMiddle .secondBox{
+        width: 100%;
+
+    }
+    .thirdMiddle .secondBox .boxTop{
+        width: 100%;
+        
+        height: 18rem;
+    }
+    .thirdMiddle .secondBox .boxTop .box1 {
+        width: 100%;
+    }
+    .thirdMiddle .secondBox .boxTop .box2{
+        width: 45%;
+    }
+    .thirdMiddle .secondBox .boxBottom .top{
+        display: block;
+    }
+    .thirdMiddle .secondBox .boxBottom .bottom{
+        display: block;
+        margin-top: 86%;
+    }
+    .thirdMiddle .secondBox .boxBottom .box1 {
+        height: 20rem;
+        width: 58%;
+    }
+    
+    .thirdMiddle .secondBox .boxBottom .box2 {
+        height: 20rem;
+        width: 58%;
+        margin-top: 2%;
+    }
+    
+    .thirdMiddle .secondBox .boxBottom .box3 {
+        height: 20rem;
+        width: 58%;
+        margin-top: 2%;
+    }
+
+     /* <!-- ------------------------Fourth Middle-------------------------- --> */
+.fourthMiddle{
+    margin-top: -5%;
+    display: block;     
+    height: 87rem;
+}
+.fourthMiddle .firstHalf{
+  width: 100%;
+  height: 18rem;
+
+}
+.fourthMiddle .secondHalf{
+  width: 100%;
+}
+.fourthMiddle .secondHalf .topBox{
+  width: 100%;
+  height: 29rem;
+}
+.fourthMiddle .secondHalf .topBox .box2{
+  display: block;
+  justify-content:space-evenly;
+  width: 155%;
+}
+.fourthMiddle .secondHalf .topBox .box2 .cartOne{
+  display: flex;
+  justify-content:space-evenly;
+  
+}
+.fourthMiddle .secondHalf .topBox .box2 .cartTwo{
+ display: flex;
+ justify-content: space-around;
+ width: 60%;
+  margin-top: 2%;    
+}
+.fourthMiddle .secondHalf .bottomBox{
+  display: block;
+  width: 190%;
+  margin-top: 2%;
+}
+.fourthMiddle .secondHalf .bottomBox .box1{
+  width: 50%;
+}
+.fourthMiddle .secondHalf .bottomBox .box2{
+  width: 50%;
+  margin-top: 2%;
+}
+
+/* <!-- ------------------------Fifth Middle-------------------------- --> */
+.fifthMiddle{
+    display: block;
+    height: 106rem;
+}
+.fifthMiddle .firstHalf{
+    width: 100%;
+}
+.fifthMiddle .secondHalf{
+    width: 100%;
+}
+.fifthMiddle .secondHalf .boxOne {
+    display: flex;
+    height: 20rem;
+}
+.fifthMiddle .secondHalf .boxOne .box1, .box2, .box3 {
+    width: 90%;
+    margin-top: 2%;
+}
+.fifthMiddle .secondHalf .boxTwo{
+    height: 15rem;
+}
+
+/* <!-- ------------------------Sixth Middle-------------------------- --> */
+
+.sixthMiddle{
+    display: block;
+    height: 83rem;
+    width: 100%;
+}
+.sixthMiddle .sixfirstHalf{
+    width: 100%;
+    height: 38rem;
+}
+.sixthMiddle .sixsecondHalf .cont{
+    width: 154%;
+    margin-left: 5%;
+}
+.sixthMiddle .sixsecondHalf .box{
+    display: flex;
+    width: 131%;
+    height: 33rem;
+}
+.sixthMiddle .sixsecondHalf .box .firstHalf {
+    width: 150%;
+    margin-left: 5%;
+}
+.sixthMiddle .sixsecondHalf .box .secondHalf{
+    width: 150%;
+}
+.sixthMiddle .sixsecondHalf .box .secondHalf h3 {
+    font-size: 1.17rem;
+    width: 106%;
+    color: black;
+}
+
+/* -----------------------Seventh Middle------------------------------- */
+.seventhMiddle{
+    display: block;
+    height: 80rem;
+}
+.seventhMiddle .seventhFirstHalf{
+    width: 98%;
+    height: 18rem;
+}
+.seventhMiddle .seventhSecondHalf{
+    width: 100%;
+}
+.seventhSecondHalf .seventhBoxThree{
+    justify-content: center;
+}
+.seventhSecondHalf .seventhBoxThree img{
+    width: 16rem;
+    height: 10rem;
+}
+.seventhSecondHalf .seventhBoxThree .seventhBox1{
+    width: 49%;
+}
+.seventhSecondHalf .seventhBoxThree .seventhBox2 {
+    width: 49%;
+}
+
+
+/* -------------------------Tenth Middle---------------- */
+.tenthMiddle {
+    width: 100%;
+    height: 80rem;
+    display: block;
+    margin-top: 2%;
+}
+.tenthMiddle .tenthMiddleFourBox{
+    width: 100%;
+}
+
+.tenthMiddle .contactUs {
+    width: 50%;
+    margin-left: 30%;
+}
+.tenthMiddle .contactUs h2{
+    font-size: 2.5rem;
+    margin-left: 12%;
+}
+.tenthMiddle .contactUs h4{
+    /* font-size: 2.5rem; */
+    margin-left: 12%;
+    width: 200%;
+}
+.tenthMiddle .contactUs button{
+    width: 25rem;
+}
+    
+    
+ }
+
+  /* -------------------------------------------Media Query3--------------------------------------------- */
+ @media(min-width:850px) and (max-width:1150px){
+    
+ }
